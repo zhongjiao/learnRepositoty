@@ -1,0 +1,717 @@
+*{
+	list-style: none;
+	text-decoration: none;
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+header,nav,figure,figcaption,footer{
+	display: block;
+}
+body{
+	background: url(../images/main-bg-v28.jpg) no-repeat center top;
+}
+.fl{
+	float: left;
+}
+.fr{
+	float: right;
+}
+.cl{
+	clear: both;
+}
+.comWidth{
+	width: 980px;
+	margin: 0 auto;
+}
+/*以上是公共类*/
+.header{
+	width: 100%;
+}
+/*顶部导航栏一行*/
+.checked{
+	color: #00A383;
+	border-top: 4px solid #00A383;
+	border-bottom: 0px;
+	background: #000;
+}
+.top_nav-left>li{
+	float: left;
+	padding-top: 30px;
+	overflow: hidden;
+}
+.top_nav-left>li>a{
+	display: block;
+	width: 96px;
+	height: 40px;
+	padding: 0 15.5px;
+}
+.top_nav-left>li>a>i{
+	width: 65px;
+	height:40px;
+	display: block;
+}
+.top_nav-right>li{
+	float: left;
+	padding-top: 30px;
+}
+.top_nav-right>li>a{
+	display: block;
+	width: 96px;
+	height: 40px;
+	padding: 0 15.5px;
+}
+.top_nav-right>li>a>i{
+	width: 65px;
+	height:40px;
+	display: block;
+}
+
+/*多项链接一侧*/
+
+/*游戏资料、LOL商城、用户互动、赛事活动、自助系统、客服信息*/
+.subnav{
+	margin-top: 15px;
+}
+.subnav>li>a{
+	color: #fff;
+	font-size: small;
+	font-family: "Microsoft YaHei";
+	display: inline-block;
+	line-height: 22px;
+	text-shadow: 0 0 10px black;
+}
+.subnav>li{
+	text-align: center;
+}
+.subnav-image{
+	background: url(../images/top-nav-ico.png) no-repeat 2px -16px;
+}
+.subnav>li>a:hover{
+	color: #00A383;
+}
+.subnav-h-image{
+	background: url(../images/top-nav-ico.png) no-repeat 5px 2px;
+}
+/*专题 内容  banner一栏*/
+.menu{
+	width: 980px;
+}
+.menu>ul{
+	width: 980px;
+	height:108px;
+	margin-top: 160px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.menu>ul>li{
+	float: left;
+	overflow: hidden;
+	height: 108px;
+}
+.menu>ul>li>a{
+	display: block;
+}
+.menu_download{
+	width: 227px;
+	height: 108px;
+	background: url(../images/public-v2.png) no-repeat 0 0;
+}
+.menu_gift{
+	box-sizing: border-box;
+	width: 121px;
+	height: 108px;
+	padding: 19px 26px;
+	background: url(../images/public-v2.png) no-repeat -228px 0;
+}
+.menu_L{
+	box-sizing: border-box;
+	width: 121px;
+	height: 108px;
+	padding: 19px 26px;
+	background: url(../images/public-v2.png) no-repeat -716px 0;
+}
+.menu_reputation{
+	box-sizing: border-box;
+	width: 121px;
+	height: 108px;
+	padding: 19px 26px;
+	background: url(../images/public-v2.png) no-repeat -472px 0;
+}
+.menu_login{
+	width: 388px;
+	height: 108px;
+	padding: 14px 20px 20px 110px;
+	background: url(../images/public-v2.png) no-repeat -960px 0;
+}
+
+.login-right{
+	width: 100%；
+}
+.login-bar{
+	font-size: large;
+	color: white;
+}
+.login-into{
+	font-size: large;
+	color: #00ffcc;
+}
+.hr{
+	width: 100%;
+	margin-top: 4px;
+	margin-bottom: 6px;
+	border-top: 1px solid;
+	border-bottom: 1px solid;
+	border-top-color: #24314D;
+	border-bottom-color: #536382;
+}
+.loginInfo{
+	margin-bottom: 4px;
+	font-size: small;
+	color: #C1CFE8;
+}
+.login-content{
+	font-size: small;
+	color: #fff;
+}
+/*——————————————————————banner————————————————————————————*/
+/*————————banner左部————————*/
+.content{
+	width: 100%;
+	margin-top: 10px;
+}
+.banner-left{
+	width: 590px;
+	height: 280px;
+	position: relative;
+	overflow: hidden;
+}
+.imgs{
+	 position: absolute;
+	top:0;left:-590px;
+	width:4130px;
+}
+.imgs img{
+	float: left;
+}
+.banner-left>ul{
+	position: absolute;
+	top: 230px;
+	z-index: 1;
+}
+.banner-left>ul>li{
+	box-sizing: border-box;
+	float: left;
+	width: 118px;
+	height: 50px;
+	background: rgba(0,0,0,0.7);
+	text-align: center;
+}
+.banner-left>ul>li>a{
+	display: inline-block;
+	line-height: 50px;
+	color: white;
+	width: 118px;
+	font-size: small;
+}
+.active{
+	background: #D52D04!important;
+}
+/*.banner-left>ul>li:hover{*/
+	/*background: #D52D04;*/
+/*}*/
+/*————————banner右部————————*/
+.banner-right{
+	box-sizing: border-box;
+	border: 1 solid #000;
+	width: 390px;
+	background: #2B3140;
+}
+/*.border-right{
+	border-right: 1px solid #000;
+}*/
+.zongHe{
+	width: 98px;
+	height: 44px;
+	background: url(../images/mainspr.png) no-repeat -485px -111px;
+}
+.gongGao{
+	width: 97px;
+	height: 44px;
+	background: url(../images/mainspr.png) no-repeat -387px -111px;
+}
+.saiShi{
+	width: 97.5px;
+	height: 44px;
+	background: url(../images/mainspr.png) no-repeat -387px -155px;
+}
+.lunTan{
+	width: 97.5px;
+	height: 44px;
+	background: url(../images/mainspr.png) no-repeat -485px -67px;
+}
+/*——————————更新展示窗口——————————*/
+.upgrade{
+	width: 347px;
+	height: 40px;
+	margin: 15px auto;
+	background: #1D212D;
+	text-align: center;
+}
+.upgrade>a{
+	font-size:14px; 
+	color: #00FFCC;
+	display: inline-block;
+	line-height: 40px;
+	font-family: "Microsoft YaHei";
+}
+.upgrade>a:hover{
+	text-decoration: underline;
+}
+/*——————新闻条——————*/
+.newLists>li{
+	position: relative;
+	width: 347px;
+	height: 22px;
+	margin:0 auto;
+	padding-left: 12px;
+	padding-top: 1px;
+	font-size: small;
+	background: url(../images/mainspr.png) no-repeat -716px 5px;
+}
+.newlist a:nth-child(1){
+	color: #7E8390;
+}
+.newlist a:nth-child(2){
+	color: #fff;
+	font-family: "Microsoft YaHei";
+}
+.newlist a:nth-child(2):hover{
+	color: #00FFCC;
+}
+.newlist>span{
+	color: #7E8390;
+	position: absolute;
+	right: 0;
+}
+/*————调研————*/
+.investigate-bar{
+	width: 347px;
+	height: 26px;
+	margin: 8px auto 0;
+	position: relative;
+}
+.investigate-bar>a{
+	display: inline-block;
+	color: #9FA4B1;
+	font-size: small;
+}
+.investigate{
+	padding-left: 14px;
+	background: url(../images/public-v2.png) no-repeat -1411px -140px;
+}
+.investigate:hover{
+	text-decoration: underline;
+}
+.checkMore{
+	padding-left: 14px;
+	background: url(../images/public-v2.png) no-repeat -1411px -50px;
+}
+.checkMore:hover{
+	text-decoration: underline;
+}
+/*——————content——————*/
+.content-center{
+	width: 100%;
+	margin: 50px auto 0;
+}
+.c-center{
+	width: 980px;
+	margin-left: auto;
+	margin-right: auto;
+}
+.videos-center{
+	width: 592px;
+}
+/*————————top-title————————*/
+.videosTitle{
+	height: 40px;
+}
+.videosImage{
+	width: 103px;
+	height: 25px;
+	background: url(../images/mainspr.png) no-repeat -616px -240px;
+}
+.contribute{
+	margin-top: 5px;
+	margin-left: 30px;
+	width: 79px;
+	height: 19px;
+	background: url(../images/mainspr.png) no-repeat -710px -139px;;
+}
+.contribute>a{
+	color: #666666;
+	font-size: 14px;
+	margin-left: 22px;
+	display: inline-block;
+	line-height: 19px;
+}
+.contribute>a:hover{
+	text-decoration: underline;
+}
+.intoCenter{
+	width: 110px;
+	height: 16px;
+	padding-left: 18px;
+	margin-top: 8px;
+	background: url(../images/public-v2.png) no-repeat -1411px -65px;
+}
+.intoCenter>a{
+	font-size: small;
+	color: #666666;
+}
+.intoCenter>a:hover{
+	text-decoration: underline;
+}
+/*————————项目————————*/
+.center-list{
+	width: 590px;
+	border-left: 1px solid #E1E1E1;
+	border-right: 1px solid #E1E1E1;
+}
+.center-list>ul>li{
+	float: left;
+	width: 98px;
+	height: 57px;
+	text-align: center;
+}
+.center-list>ul>li>a{
+	width: 98px;
+	color: #525252;
+	font-size: 14px;
+	display: inline-block;
+	border-top: 4px solid #D7D7D7;
+	border-bottom: 1px solid #E2E2E2;
+	line-height: 52px;
+	background: #F0F0F0;
+}
+.checked{
+	color: #00A383;
+	border-top: 4px solid #00A383;
+	border-bottom: 0px;
+	background: #fff;
+}
+.center-list>ul>li:hover a{
+	color: #00A383;
+	border-top: 4px solid #00A383;
+	border-bottom: 0px;
+	background: #fff;
+}
+/*————————视频————————*/
+.videoGroup-up{
+	width: 590px;
+	height: 160px;
+	border-left:1px solid #E1E1E1;
+	border-right:1px solid #E1E1E1;
+}
+.videoGroup-down{
+	width: 590px;
+	height: 180px;
+	border-left:1px solid #E1E1E1;
+	border-right:1px solid #E1E1E1;
+	border-bottom:1px solid #E1E1E1;
+}
+.videoGroup-up>div{
+	float: left;
+}
+.videoGroup-up>div>a{
+	display: block;
+}
+.videoGroup-down>div{
+	float: left;
+}
+.videoGroup-down>div>a{
+	display: block;
+}
+/*————————————免费英雄————————————*/
+
+.heroslist>div>a{
+	display: inline-block;
+	float: left;
+	width: 66px;
+	height: 66px;
+}
+.heroslist{
+	margin-top: 15px;
+}
+
+.times{
+	color: #9FA1A4;
+	font-size: small;
+	font-family: "Microsoft YaHei";
+	text-align: right;
+}
+/*————————————活动中心————————————*/
+.activeCenter{
+	margin-top: 20px;
+}
+.activeTitle{
+	height: 25px;
+}
+.activeImage{
+	width: 103px;
+	height: 25px;
+	background: url(../images/mainspr.png) no-repeat -584px -88px;
+}
+.actCenter{
+	margin-top: 18px;
+}
+.oldSoldier{
+	width: 145px;
+	height: 172px;
+	background-size:cover; 
+	background: url(../gamefiles/11.jpg) no-repeat;
+}
+.oldSoldier>span{
+	width: 145px;
+	height: 53px;
+	display: block;
+	box-sizing: border-box;
+	padding-left: 5px;
+	padding-top: 8px;
+	background: rgba(0,0,0,0.7);
+	font-family: "Microsoft YaHei";
+	font-size: 14px;
+	color: white;
+	margin-top: 119px;
+	vertical-align: bottom;
+}
+.old-right{
+	margin-left: 20px;
+}
+.old-right>ul>li>a{
+	color: #333333;
+	font-size: x-small;
+	display: inline-block;
+	float: left;
+}
+.old-right>ul>li{
+	margin-bottom: 6px;
+	padding-left: 13px;
+	background: url(../images/mainspr.png) no-repeat -716px 3px;
+}
+.old-right>ul>li>div{
+	display:inline-block;
+}
+.green{
+	background: #00A887;
+	width: 50px;
+	height: 20px;
+	border-radius: 2px;
+	text-align: center;
+}
+.green>span{
+	display: inline-block;
+	color: #fff;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+.grey{
+	background: #EBEBEB;
+	width: 50px;
+	height: 20px;
+	border-radius: 2px;
+	text-align: center;
+}
+.grey>span{
+	display: inline-block;
+	color: #9A9898;
+	line-height: 20px;
+	font-size: 12px;
+	font-family: "Microsoft YaHei";
+}
+.posi:hover a{
+	text-decoration: underline;
+}
+/*————————————footer————————————*/
+.footer{
+	width: 100%;
+}
+.footerCenter{
+	width: 980px;
+	margin: 50px auto;
+}
+.footer-up{
+	width: 980px;
+	height: 67px;
+}
+.up1{
+	float: left;
+	width: 67px;
+	height: 67px;
+	margin-right: 20px;
+	background: url(../images/footlogo.png) no-repeat -264px 0;
+}
+.up2{
+	margin-right: 56px;
+}
+.up3{
+	margin-right: 56px;
+}
+.footer-h3{
+	font-size: 14px;
+	margin-top: 2px;
+	font-family: "Microsoft YaHei";
+}
+.footer-p{
+	font-size: 12px;
+	color: #A5A5A5;
+	margin-top: 5px;
+	font-family: "Microsoft YaHei";
+}
+.up4{
+	width: 278px;
+	height: 36px;
+	border: 1px solid #CBCBCB;
+	cursor:pointer;
+}
+.up4>span{
+	display: inline-block;
+	text-indent: 1em;
+	margin-top: 6px;
+	line-height: 22px;
+	width: 248px;
+	height: 22px;
+	border-right: 1px solid #ccc;
+	color: #666666;
+	font-family: "Microsoft YaHei";
+	font-size: 12px;
+}
+.up4>i{
+	display: inline-block;
+/*	margin-left: 9px;
+	margin-top: 15px;*/
+	margin-left: 3px;
+	width: 7px;
+	height: 6px;
+	background: url(../images/public-v2.png) no-repeat -1411px -86px;
+}
+.up4{
+	margin-top: 15px;
+	box-shadow: 0 0 5px 3px #E2E2E2;
+}
+.up4-hr{
+	width: 980px;
+	height: 3px;
+	margin-top: 12px;
+	margin-bottom:20px;
+	background: #D0D0D0;
+}
+/*————————————下部————————————*/
+.footer-down{
+	width:980px;
+}
+.down-left{
+	width: 257px;
+	height: 50px;
+	background: url(../images/footlogo.png) no-repeat;
+}
+.down-right{
+	width: 710px;
+	height: 101px;
+	box-sizing: border-box;
+	padding-left: 10px;
+}
+.down-right>p{
+	margin-bottom: 2px;
+	font-size: 10px;
+	font-family: "Microsoft YaHei";
+	color: rgb(130,130,130);
+}
+.down-right>p>a{
+	color: rgb(130,130,130);
+}
+.down-right>p>a:hover{
+	text-decoration: underline;
+}
+.rightSide{
+	position: absolute;
+	right: 0;
+}
+.fixed{
+	display: block;
+	width: 106px;
+	position: fixed;
+	top: 375px;
+	right: 70px;
+}
+.load{
+	font-family: "Microsoft YaHei";
+	margin-left: 3px;
+	font-size: x-small;
+	color: #A5A5A5;
+}
+/*——————————————————————————————————————————————
+————————————————————————————————————————————————————
+————————————————————————————————————————————————————*/
+.login-into:hover{
+	color: red;
+}
+.menu>ul>li>a:hover{
+margin-top: -2px;
+}
+.heroslist>div>a>div{
+	width: 66px;
+	height: 66px;
+	opacity: 0;
+}
+.oldSoldier{
+	position: relative;overflow:hidden;
+}
+.oldSoldier-image{
+	position: absolute;
+	width: 145px;
+	height: 172px;
+	top: 172px;
+	background: url(../images/images/12_03.png);
+}
+
+.videoGroup-up>div>a>div{
+	width: 100%;
+	height: 100%;
+	background:rgba(0,0,0,.2) no-repeat;
+	text-align: center;
+	display: none;
+}
+.videoGroup-up>div>a>div>div{
+	line-height: 95px;
+	width: 47px;
+	height: 47px;
+	position: relative;
+	top: 25%;
+	margin: auto;
+	background: url(../images/mainspr.png) no-repeat -682px -272px;
+}
+.videoGroup-down>div>a>div{
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,.2);
+	display: none;
+}
+.videoGroup-down>div>a>div>div{
+	line-height: 95px;
+	width: 47px;
+	height: 47px;
+	position: relative;
+	top: 25%;
+	margin-left: auto;
+	margin-right: auto;
+	background: url(../images/mainspr.png) no-repeat -682px -272px;
+}
+.videoGroup-up>div:hover div{
+	display: block;
+}
+.videoGroup-down>div:hover div{
+	display: block;
+}

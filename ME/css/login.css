@@ -1,0 +1,53 @@
+
+.content{
+	width: 1170px;margin:0 auto;padding-top: 100px;text-align: center;
+}
+.input{
+	width: 408px;margin: 0 auto;
+}
+.input li{
+	margin:0 auto 12px;position: relative; width: 300px;height: 44px;background: rgba(0,0,0,.5);border-radius: 22px;
+}
+.input li input{
+	line-height: 44px;font-size: 14px; width: 200px;padding-left:10px;background: 0,0;outline: none;border: 0;color: white;
+}
+.input li img{
+	position: absolute;left: 20px;top: 12px;
+}
+.log-btn{
+	background: 0,0;text-align:center;border: 0;color: #EAEAEA;line-height: 44px;cursor:pointer;width: 300px;outline: none;border-radius: 22px;
+}
+.log-btn:hover{
+	background: rgba(0,0,0,.4);
+}
+.aFor{
+	margin-right: 40px;
+}
+.aReg{
+	margin-left: 40px;
+}
+.aFor:hover{
+	text-decoration: underline;
+}
+.aReg:hover{
+	text-decoration: underline;
+}
+/*微博信息栏*/
+.img-contact{
+	margin:0 auto;padding-top: 30px; width: 400px;
+}
+.img-contact li{
+	float: left; width: 100px;
+}
+.middle{
+	margin: 0 30px;
+}
+.img-contact li p{
+	margin-top: 5px;display:none;padding:5px 10px;font-size:14px;width: 110px;background: rgba(0,0,0,.3);color:#EAEAEA; 
+}
+.login-footer{
+	text-align: center;margin-top: 55px;color: #909091;font-size: 14px;
+}
+.login-footer span{
+	color: #EAEAEA;font-size: 15px;
+}

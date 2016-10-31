@@ -1,0 +1,76 @@
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: both;}
+a{text-decoration: none;}
+ul{list-style: none;}
+*{margin: 0;padding: 0;box-sizing: border-box;font-family: "Microsoft YaHei";}
+body{
+	overflow: hidden;
+}
+.background{
+	height: 680px;width: 100%;background: url(../images/beijing.jpg) no-repeat 0 -54px;background-size:cover;
+}
+/*头部*/
+.header{
+	width: 100%;height: 54px;z-index: 10;
+}
+.nav{
+	width: 1170px;margin: 0 auto;text-align: center;
+}
+.logo{
+	width: 75px;height: 54px;padding: 8px 0;
+}
+.logo>a>img{
+	width: 75px;height: 38px;border: 0;
+}
+/*导航条*/
+.nav-list{
+	padding: 8px 0;text-align: center;	margin-left: 320px;
+}
+.nav-list ul{
+	width: 384px;height: 38px;
+}
+.nav-list>ul>li{
+	float: left;height:38px;overflow:hidden;width: 90px;margin-left:6px;position: relative;
+}
+.nav-list>ul>li>a{
+	width: 74px;margin: 0 8px;color: #fff;font-size: 14px;line-height: 36px;
+}
+/*登陆注册*/
+.line{
+	position:absolute;left:-82px;width: 74px;height:0;margin:0 8px;border: 1px solid #5f686e;
+}
+.login-sign{
+	color: #fff;font-size: 14px;padding:18px 0;text-align: center;width: 200px;height: 54px;
+}
+.login-sign a{
+	color: #fff;
+}
+/*content  内容*/
+.aPub{
+	color: #fff;font-size: 14px;display:inline-block;line-height: 55px;width: 96px;
+}
+.weChat{
+	outline:none;margin-top:20px;border:0;width: 300px;height: 44px;background: #49892E;color: #EAEAEA;border-radius: 22px;cursor: pointer;
+}
+.weChat>a{
+	color: #EAEAEA;
+}
+.weChat>a>span{
+	position: relative;top: -10px;
+}
+.login-sign>a:hover{
+	text-decoration: underline;
+}
+.susBar>li>a>img{
+	position: absolute;top: 22px;left: 6px;
+} 
+.susBar>li{
+	cursor: pointer;
+}
+.susBar>li>img{
+	position: absolute;top: 0;left: -125px;display: none;
+}
+.susBar>li:hover img{
+	display: block;
+}

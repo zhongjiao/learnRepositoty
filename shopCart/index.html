@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <style>
+        .pagination li a{
+            cursor:pointer;
+        }
+    </style>
+</head>
+<body ng-app="myApp">
+    <div class="container">
+        <div ng-include="'tpl/header.html'"></div>
+        <div ng-view></div>
+    </div>
+    <script src="lib/jquery.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="lib/angular.js"></script>
+    <script src="lib/angular-route.js"></script>
+    <script src="lib/angular-resource.js"></script>
+    <script src="js/config/route.js"></script>
+    <script src="js/controller/stuInfoCtrl.js"></script>
+    <script src="js/service/stuDataRequest.js"></script>
+    <script src="js/service/service.js"></script>
+    <script src="js/service/submitService.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

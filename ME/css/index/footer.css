@@ -1,0 +1,36 @@
+.friendLink{
+	width: 100%;height: 267px;overflow:hidden;padding-top: 40px;background-color: #F4F4F4;
+}
+.centerLink{
+	width: 1170px;height: 267px;margin: 0 auto;
+}
+.imgLink{
+	width: 1170px;height: 160px;padding-top: 10px;
+}
+.imgLink>li{
+	float: left;padding-right: 40px;padding-top: 20px;padding-bottom: 20px;
+}
+.imgLink>li>a>img{
+	border: 0;
+}
+.wordLink{
+	width: 1170px;height: 30px;text-align: left;padding-top: 20px;
+}
+.wordLink>a{
+	color: #333333;margin-right: 40px;
+}
+.footer{
+	width: 100%;height: 60px;overflow:hidden;background: #333333;
+}
+.foot{
+	width: 1170px;height: 60px;margin: 0 auto;font-size: 14px;color: #fff;line-height: 60px;
+}
+.foot>li>a{
+	color: #fff;line-height: 60px;
+}
+.foot>li>a:hover{
+	text-decoration: underline;
+}
+.sp{
+	font-size: 12px;
+}

@@ -1,0 +1,156 @@
+.comhero(@a:'1'){
+  background: url("../gamefiles/@{a}.jpg") no-repeat;
+  background-size:contain;
+  margin-right: 5px;
+  margin-bottom: 5px;
+}
+.heros1{
+  .comhero;
+}
+.heros2{
+  .comhero('2');
+}
+.heros3{
+  .comhero('3');
+}
+.heros4{
+  .comhero('4');
+}
+.heros5{
+  .comhero('5');
+}
+.heros6{
+  .comhero('6');
+}
+.heros7{
+  .comhero('7');
+}
+.heros8{
+  .comhero('8');
+}
+.heros9{
+  .comhero('9');
+}
+.heros10{
+  .comhero('10');
+}
+.comWidthHeight(@h,@b){
+  width:@h;
+  height:@b
+}
+.freeHeros{
+  .comWidthHeight(356px,435px);
+}
+.heros{
+  .comWidthHeight(356px,200px);
+}
+.herosHead{
+  .comWidthHeight(356px,30px);
+}
+.weekHeros{
+  .comWidthHeight(131px,25px);
+  margin-top: 5px;
+  background: url(../images/mainspr.png) no-repeat -584px -166px;
+}
+.comBack(@a,@b){
+  background: url(../images/menuhover.png) no-repeat @a @b;
+}
+.a_home{
+  .comBack(0,0);
+}
+.top_nav-left>li>a:hover .a_home{
+  .comBack(0,-40px);
+}
+.a_gameInfo{
+  .comBack(-66px,0);
+}
+.top_nav-left>li>a:hover .a_gameInfo{
+  .comBack(-66px,-40px);
+}
+.a_store{
+  .comBack(-132px,0px);
+}
+.top_nav-left>li>a:hover .a_store{
+  .comBack(-132px,-40px)
+}
+.a_community{
+  .comBack(-198px,0px);
+}
+.top_nav-left>li>a:hover .a_community{
+  .comBack(-198px,-40px);
+}
+.a_events{
+  .comBack(-264px,0px);
+}
+.top_nav-right>li>a:hover .a_events{
+  .comBack(-264px,-40px);
+}
+.a_system{
+  .comBack(-330px,0px);
+}
+.top_nav-right>li>a:hover .a_system{
+  .comBack(-330px,-40px);
+}
+.a_service{
+  .comBack(-396px,0px);
+}
+.top_nav-right>li>a:hover .a_service{
+  .comBack(-396px,-40px);
+}
+.a_awards{
+  .comBack(-462px,0px);
+}
+.top_nav-right>li>a:hover .a_awards{
+  .comBack(-264px,-40px);
+}
+//视频背景
+.videoBg{
+  color:#000;
+  width: 170px;
+  margin-left: 20px;
+  font-size: small;
+  color: #333333;
+}
+.video1-describe{
+  .videoBg;
+}
+.video2-describe{
+  .videoBg;
+}
+.video3-describe{
+  .videoBg;
+}
+.video4-describe{
+  .videoBg;
+}
+.video5-describe{
+  .videoBg;
+}
+.video6-describe{
+  .videoBg;
+}
+.videoImage{
+  width: 170px;
+  height: 95px;
+  margin-top: 20px;
+  margin-left: 20px;
+  margin-bottom: 15px;
+}
+.video1-image{
+  .videoImage;
+}
+.video2-image{
+  .videoImage;
+}
+.video3-image{
+  .videoImage;
+}
+.video4-image{
+  .videoImage;
+}
+.video5-image{
+  .videoImage;
+}
+.video6-image{
+  .videoImage;
+}

@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Regist</title>
+	<link rel="stylesheet" type="text/css" href="../css/regist.css">
+	<link rel="stylesheet" type="text/css" href="../css/public.css">
+</head>
+<body>
+<div class="background">
+	<div class="header" id="header">
+		<div class="nav">
+		<!-- logo -->
+			<div class="logo fl">
+				<a href="../index.html">
+					<img src="../images/logo.png">
+				</a>
+			</div>
+			<!-- 导航信息条 -->
+			<div class="nav-list fl">
+				<ul id="list">
+					<li>
+						<a href="./creation.html">
+							场景创作
+						</a>
+						<div class="line"></div>
+					</li>
+					<li>
+						<a href="#">
+							精品推荐
+						</a>
+						<div class="line"></div>
+					</li>				
+					<li>
+						<a href="./tribe.html">
+							设计部落
+						</a>
+						<div class="line"></div>
+					</li>				
+					<li>
+						<a href="#">
+							帮助中心
+						</a>
+						<div class="line"></div>
+					</li>
+				</ul>
+			</div>
+			<!-- 注册登录 -->
+			<div class="login-sign fr">
+				<a href="./login.html">登陆 LOGIN</a> &nbsp; <span>|</span> &nbsp; <a href="./regist.html">注册 SIGN UP</a>
+			</div>
+			<div class="cl"></div>
+		</div>
+		<!-- 内容 登陆框 -->
+	</div>
+	<div class="content">
+		<ul class="input">
+			<li>
+				<img src="../images/shouji.png">
+				<input type="text" name="number" placeholder="输入11位手机号" id="number">
+			</li>
+			<div class="special-li">
+				<div class="re re1 fl">
+					<input type="text" name="number" placeholder="输入验证码" style="width:130px;" id="reCode">
+				</div>
+				<div class="re2 re fr">
+					<a href="#" id="re2">发送验证码</a>
+				</div>
+			</div>			
+			<li>
+				<img src="../images/mima.png">
+				<input type="password" name="pass" placeholder="请输入6-18位密码" id="password">
+			</li>				
+			<li>
+				<img src="../images/mima.png">
+				<input type="password" name="pass" placeholder="请重复输入密码" id="rePass">
+			</li>			
+			<div class="agreement">
+				<div class="circle" id="agree_circle">
+					<img src="../images/yes.png" id="agreement">
+				</div>
+				<span>同意</span> <a href="#">应用服务协议</a>
+			</div>
+			<li>
+				<button id="regist_btn" class="log-btn">
+					<span class="login-word" id="registText">注&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;册</span>
+				</button>
+			</li>
+		</ul>
+				<img src="../images/OR.png">
+		<br>
+		
+				<button class="weChat" id="weChat">
+				<a href="../images/wechat.png">
+					<img src="../images/weixin.png">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+					<span>微信登陆</span>
+				</a>
+				</button>
+	</div>
+
+</div>
+</body>
+<script src="../js/public.js"></script>
+<script src="../js/regist.js"></script>
+</html>

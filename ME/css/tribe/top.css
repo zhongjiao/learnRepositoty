@@ -1,0 +1,34 @@
+.comWidth{
+	width: 100%;
+}
+.cenWidth{
+	width: 1170px;margin: 0 auto;
+}
+.top{
+	height: 174px;color:#fff;padding-bottom:30px;text-align:center;background: url(../../images/tribe/back.jpg) #F4F4F4 no-repeat center top;
+}
+.des_up{
+	padding-top: 80px;padding-bottom:15px;font-size: 18px;font-weight: 100;
+}
+.des_up>a{
+	color: #fff;vertical-align:middle;display: inline-block;margin-left: 40px;font-size: 14px;width: 156px;height: 40px;line-height:40px;border-radius: 20px;background: rgba(0,0,0,.4);
+}
+.des_down{
+	font-size: 14px;
+}
+/*固定导航条*/
+.susBar{
+	z-index: 1;background-color: #fff;opacity:0;text-align: center;width: 36px;padding:0 6px;filter:alpha(opacity:0);position: fixed;right: 0;top: 240px;font-size: 14px;color: #666666;
+}
+.susBar li{
+	border-bottom:1px solid #ccc;cursor:pointer;position:relative;margin:0;width: 36px;height: 38px; padding: 6px 0;
+}
+.susBar>li>a>img{
+	position: absolute;top: 22px;left: 6px;
+} 
+.susBar>li>img{
+	position: absolute;top: 0;left: -125px;display: none;
+}
+.susBar>li:hover img{
+	display: block;
+}

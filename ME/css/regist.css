@@ -1,0 +1,57 @@
+.content{
+	width: 1170px;margin:0 auto;padding-top: 100px;text-align: center;
+}
+.input{
+	width: 408px;margin: 0 auto;
+}
+.input li{
+	margin:0 auto 12px;position: relative; width: 300px;height: 44px;background: rgba(0,0,0,.5);border-radius: 22px;
+}
+.special-li{
+	margin:0 auto 12px;position: relative; width: 300px;height: 44px;border-radius: 22px;
+}
+.re{
+	border-radius:22px;height: 44px;background: rgba(0,0,0,.5);
+}
+.re1{
+	width: 180px;padding-left: 50px;
+}
+.re2{
+	width: 108px;
+}
+.re2>a:hover{
+	text-decoration: underline;
+}
+.re2 a{
+	color: #fff;font-size: 14px;display: inline-block;line-height: 44px;height: 44px;width: 108px;
+}
+.special-li input{
+	line-height: 44px;font-size: 14px; width: 200px;padding-left:10px;background: 0,0;outline: none;border: 0;color: white;
+}
+.input li input{
+	line-height: 44px;font-size: 14px; width: 200px;padding-left:10px;background: 0,0;outline: none;border: 0;color: white;
+}
+.input li img{
+	position: absolute;left: 20px;top: 12px;
+}
+.log-btn{
+	background: 0,0;cursor:not-allowed;text-align:center;border: 0;color: #777777;line-height: 44px;width: 300px;outline: none;border-radius: 22px;
+}
+
+/*用户协议*/
+
+.agreement{
+	width: 300px;height: 50px;color: #fff;font-size: 14px;text-align: center;margin: 22px auto 0;
+}
+.circle{
+	display: inline-block;cursor:pointer;margin-bottom:2px;margin-right:10px;padding-right:10px;vertical-align:middle;padding-top:3px;padding-left:3px;width: 20px;height: 20px;background: url(../images/circle.png) no-repeat;background-size: 20px 20px;
+}
+.circle img{
+	width: 15px;height: 15px;display: none;
+}
+.agreement>a{
+	color: #fff;
+}
+.agreement>a:hover{
+	text-decoration: underline;
+}

@@ -1,0 +1,61 @@
+.fl{float: left;}
+.fr{float: right;}
+.cl{clear: both;}
+a{text-decoration: none;}
+ul{list-style: none;}
+*{margin: 0;padding: 0;font-family: "Microsoft YaHei";}
+/*.background{
+	height: 680px;width: 100%;background: url(../../images/creation/back.jpg) no-repeat 0 -54px;background-size:cover;
+}*/
+/*头部*/
+.header{
+	width: 100%;height: 54px;position: fixed;top: 0;z-index: 10;
+}
+.nav{
+	width: 1170px;margin: 0 auto;text-align: center;height: 54px;
+}
+.logo{
+	width: 75px;height: 54px;padding: 8px 0;
+}
+.logo>a>img{
+	width: 75px;height: 38px;border: 0;
+}
+/*导航条*/
+.nav-list{
+	padding: 8px 0;text-align: center;	margin-left: 320px;
+}
+.nav-list ul{
+	width: 384px;height: 38px;
+}
+.nav-list>ul>li{
+	float: left;height:38px;overflow:hidden;width: 90px;margin-left:6px;position: relative;
+}
+.nav-list>ul>li>a{
+	width: 74px;margin: 0 8px;color: #fff;font-size: 14px;line-height: 36px;
+}
+/*登陆注册*/
+.line{
+	position:absolute;left:-84px;bottom:0;width: 74px;height:0;margin:0 8px;border: 1px solid #5f686e;
+}
+.login-sign{
+	color: #fff;font-size: 14px;padding:18px 0;text-align: center;width: 230px;height: 34px;
+}
+.login-sign a{
+	color: #fff;
+}
+.login-sign a:hover{
+	text-decoration: underline;
+}
+/*搜索框*/
+.index_search{
+	width: 160px;height: 54px;padding-top: 12px;padding-bottom: 12px;
+}
+.search-outer{
+	position:relative;text-align:right;width: 90px;height: 30px;background: #333333;border-radius: 15px;padding:0 10px;
+}
+.search-outer>input{
+	position:absolute;left:10px;top:4px;width: 55px;height: 22px;border: 0;outline: 0;background: 0,0;color: white;
+}
+.search-outer>img{
+	vertical-align: middle;margin-top: 7px;
+}

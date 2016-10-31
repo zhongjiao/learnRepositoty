@@ -1,0 +1,36 @@
+img{
+	border: 0;
+}
+.box{
+	width: 100%;overflow: hidden;
+}
+.header{
+	z-index: 10;
+}
+.free{
+	width: 100%;height: 50px;padding-top:80px;
+}
+.free a{
+	color: white;line-height:50px;display: inline-block;height: 50px;width: 150px;background: rgb(0,0,0);text-align: center;font-size: 14px;
+}
+.video img{
+	border: 0;
+}
+.video>a{
+	color: white;font-size: 14px;position: relative;
+}
+.aOne{
+	top: -4px;left: -5px;
+}
+.aTwo{
+	top: 2px;left:5px;
+}
+.susBar>li>a>img{
+	border: 0;
+} 
+.susBar{
+	filter:alpha(opacity: 0);
+}
+.search-outer>input{
+	background-color: #333333;
+}

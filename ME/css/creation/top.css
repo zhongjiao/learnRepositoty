@@ -1,0 +1,76 @@
+
+.top{
+	width: 100%;height: 675px;text-align: center;
+	background: url(../../images/creation/back.jpg) no-repeat center top;
+	background-size: 100% 100%;overflow: hidden;
+}
+.top>h2{
+	color: white;padding-top: 113px;font-size: 30px;font-weight: 400;
+}
+.H5{
+	width: 100%;height: 300px;padding-top: 35px;
+}
+.imgs{
+	width: 1310px;height: 300px;padding: 0 15px;margin: 0 auto;
+}
+.imgs>li{
+float: left;color: white;font-size: 18px;padding: 0 15px;
+}
+.imgs>li>a>img{
+	width: 232px;height: 232px;border: 0;
+}
+.imgs>li>a{
+	box-shadow: 0 0 50px 20px rgba(0,0,0,.4);
+}
+.imgs>li>p{
+	padding-top: 25px;height: 20px;
+}
+.free{
+	width: 100%;height: 50px;padding-top:30px;
+}
+.free a{
+	position:relative;color: white;line-height:50px;border-radius:25px;display: inline-block;height: 50px;width: 150px;background: rgba(0,0,0,.5);text-align: center;font-size: 14px;
+}
+.free a>span{
+	position: absolute;top: -5px;right: 10px;
+}
+.comWidth{
+	width:1170px;margin: 0 auto;
+}
+.suspendRow{
+	padding-top:50px;height: 32px;cursor:pointer;position: relative;
+}
+.suspendRow>img{
+	position:absolute;left: 50%;margin-left:-18px;top: 80;
+}
+/*右侧悬浮框*/
+.susBar{
+	z-index: 1;background-color: #fff;opacity:0;filter:alpha(opacity:0);text-align: center;width: 36px;padding:0 6px;position: fixed;right: 0;top: 240px;font-size: 14px;color: #666666;
+}
+.susBar li{
+	border-bottom:1px solid #ccc;position:relative;margin:0;width: 36px;height: 38px; padding: 6px 0;cursor:pointer;
+}
+.susBar>li>a>img{
+	position: absolute;top: 22px;left: 6px;
+} 
+.susBar>li>img{
+	position: absolute;top: 0;left: -125px;display: none;
+}
+.susBar>li:hover img{
+	display: block;
+}
+.items{
+	width: 100%;height: 50px;background: #323232;margin-top: 20px;
+}
+.modesItems>li{
+	float: left;font-size: 14px;line-height:10px;padding: 10px 10px;text-align: center;
+}
+.modesItems>li>a{
+	color: #fff;display: inline-block;padding: 10px 10px;
+}
+.modesItems>li>a:hover{
+	border-bottom: 1px solid #fff;
+}
+.span{
+	color: #fff;display: inline-block;padding: 10px 10px;
+}

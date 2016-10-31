@@ -1,0 +1,49 @@
+
+.top{
+	width: 100%;height: 675px;text-align: center;
+	background: url(../../images/index/back.jpg) no-repeat center top;
+	background-size: 100% 100%;
+}
+.H5{
+	width: 100%;height: 63px;padding-top: 200px;
+}
+.free{
+	width: 100%;height: 50px;padding-top:80px;
+}
+.free a{
+	color: white;line-height:50px;border-radius:25px;display: inline-block;height: 50px;width: 150px;background: rgba(0,0,0,.5);text-align: center;font-size: 14px;
+}
+.video{
+	width: 100%;height: 30px;padding-top: 80px;
+}
+.video>a{
+	color: white;font-size: 14px;position: relative;cursor: pointer;
+}
+.aOne{
+	top: -4px;left: -5px;
+}
+.aTwo{
+	top: 2px;left:5px;
+}
+.suspendRow{
+	padding-top: 80px;height: 32px;cursor:pointer;position: relative;
+}
+.suspendRow>img{
+	position:absolute;left: 50%;margin-left:-18px;top: 80;
+}
+.susBar{
+	z-index: 1; background-color: #fff;opacity:0;text-align: center;width: 36px;padding:0 6px;position: fixed;right: 0;top: 240px;font-size: 14px;color: #666666;
+}
+.susBar>li{
+	border-bottom:1px solid #ccc;cursor:pointer;position:relative;margin:0;width: 36px;height: 38px; padding: 6px 0;
+}
+.susBar>li>a>img{
+	position: absolute;top: 22px;left: 6px;
+} 
+.susBar>li>img{
+	position: absolute;top: 0;left: -125px;display: none;
+}
+.susBar>li:hover img{
+	display: block;
+}
+
